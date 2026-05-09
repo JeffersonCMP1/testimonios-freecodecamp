@@ -9,6 +9,7 @@ function App() {
         <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
         <Testimonio 
         nombre='Shawn Wang'
+        image=''
         pais='Singapore'
         cargo='Ingeniero de Software'
         empresa='Amazon'
