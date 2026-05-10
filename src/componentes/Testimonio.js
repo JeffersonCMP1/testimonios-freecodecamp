@@ -5,7 +5,7 @@ import '../hojas-de-estilo/Testimonio.css';
 export default function Testimonio(props){
     return(
     <div className="contenedor-testimonio">
-        <img className='imagen-testimonio' src={require(`../imagenes/${props.image}.png`)}alt="Persona 1" />
+        <img className='imagen-testimonio' src={require(`../imagenes/${props.image}.png`)} alt={`foto de ${props.nombre}`} />
         <div className='contenedor-texto-testimonio'>
             <p className='nombre-testimonio'> <strong> {props.nombre}</strong> en {props.pais}</p>
             <p className='cargo-testimonio'>{props.cargo} en <strong>{props.empresa}</strong></p>
